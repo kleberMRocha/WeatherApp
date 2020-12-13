@@ -13,8 +13,6 @@ const App:React.FC = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const [weather, setWeather] = useState({} as WeatherCity);
 
-  console.log(weather);
-
   const handleInputFocus = useCallback((status:boolean):void => {
     setFocus(status);
   },[]);
@@ -32,7 +30,7 @@ const App:React.FC = () => {
       return; 
     }
 
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${city},br&units=metric&APPID=47c17de4a3211a0ab28ffb829fb98727`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},br&units=metric&APPID=47c17de4a3211a0ab28ffb829fb98727`;
 
     try {
 
