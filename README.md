@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+# :sunny: Simple Weather App built with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+A weather application to get the temperature, weather condition and whether using a free weather api.
 
-### `yarn start`
+## User Stories
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Enter the name of a city into the `input` field.
+- [x] By pressing enter, the user submits the name of the city which updates the `DOM` with the temperature, weather condition, image of day or night and weather condition icon.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Bonus features
 
-### `yarn test`
+- [ ] By closing the browser window the city name will be stored in localStorage and when the user returns, the name will be retrieved to make an api call to update the `DOM`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://github.com/kleberMRocha/WeatherApp/blob/master/screamshot/Captura%20de%20tela_2020-12-12_21-36-48.png" width="600">
+<img src="https://github.com/kleberMRocha/WeatherApp/blob/master/screamshot/Captura%20de%20tela_2020-12-12_21-37-28.png" width="300">
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Weather-App.md">
+ credits: app ideas
+</a>
