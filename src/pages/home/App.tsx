@@ -109,9 +109,9 @@ const App: React.FC = () => {
           weather={weather.weather}
         />
       )}
-
+  
       <HystoryGroup>
-        {history.map((city, index) => {
+        {history[0] !== '' && history.map((city, index) => {
           if (index < 5) {
             return (
               <Hystory key={city} callback={handleGetWeather} cityName={city} />
