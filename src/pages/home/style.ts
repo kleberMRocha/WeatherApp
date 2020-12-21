@@ -6,6 +6,20 @@ interface InputProps{
     isFilled:boolean;
 }
 
+export const HystoryGroup = styled.div`
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:100%;
+    button{
+        margin-left:5px;
+    }
+    @media(max-width: 800px) {
+       flex-wrap:wrap;
+    }
+
+`;
+
 export const Container = styled.div`
     margin: 50px auto;
     text-align:center;
@@ -54,6 +68,7 @@ export const Input = styled.input`
         margin: 0 5px;
         border:none;
         outline:none;
+        
         @media(max-width: 800px) {
             height:50px;
         }
